@@ -1,6 +1,9 @@
+import time
+
+start = time.time()
 #isalnum()= 영문자, 숫자 판별하는 함수
 #대소문자 구별하지 않으므로 lower()사용
-def isPalindrome(self, s:str) ->bool:
+def isPalindrome(s:str) ->bool:
     strs = []
     for char in s:
         if char.isalnum():
@@ -13,3 +16,11 @@ def isPalindrome(self, s:str) ->bool:
             return False
 
     return True
+
+string = 'abcba'
+ans = isPalindrome(string)
+print(ans)
+
+print(time.time()-start)
+
+
