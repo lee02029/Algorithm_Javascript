@@ -4,7 +4,7 @@
 + 기본적인 알고리즘 및 SQL 분야별로 3~4개씩 작성
 
 ## SQL 순서
-##### SELCT -> SUM, MAX, MIN -> GROUP BY 
+##### SELECT -> SUM, MAX, MIN -> GROUP BY 
 ##### IS NULL -> JOIN -> STRING, DATE
 
 ## 알고리즘 순서
