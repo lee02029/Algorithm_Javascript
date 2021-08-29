@@ -6,4 +6,4 @@ function solution(clothes) {
     } , {})).reduce((a,b)=> a*(b+1), 1)-1;    
 }
 
-console.log(solution([["yellowhat", "headgear"], ["bluesunglasses", "eyewear"], ["green_turban", "headgear"]]))
+
