@@ -15,4 +15,4 @@ function solution(progresses, speeds) {
     return answer;
 }
 
-console.log(solution([93, 30, 55],[1, 30, 5]));
+console.log(solution([93, 30, 5],[1, 30, 5]));
