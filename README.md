@@ -22,4 +22,5 @@
 + 프로그래머스 (https://programmers.co.kr/learn/challenges)
 + trekhleb유저의 javascript 알고리즘 문제 (https://github.com/trekhleb/javascript-algorithms)
 + 박트리 블로그 (https://baactree.tistory.com/14)
-+ udemy(Scott Barrett) (https://www.udemy.com/course/data-structures-algorithms-javascript/)
++ udemy(Scott Barrett의 
+Data Structures & Algorithms - JavaScript) (https://www.udemy.com/course/data-structures-algorithms-javascript/)
