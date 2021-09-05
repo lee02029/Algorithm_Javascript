@@ -19,3 +19,25 @@ clothes의 각 행은 [의상의 이름, 의상의 종류]로 이루어져 있�
 clothes의 모든 원소는 문자열로 이루어져 있습니다.
 모든 문자열의 길이는 1 이상 20 이하인 자연수이고 알파벳 소문자 또는 '_' 로만 이루어져 있습니다.
 스파이는 하루에 최소 한 개의 의상은 입습니다.
+
+## 입출력 예
+|clothes|return|
+|------|---|
+|[["yellowhat", "headgear"], ["bluesunglasses", "eyewear"], ["green_turban", "headgear"]]|5|
+|[["crowmask", "face"], ["bluesunglasses", "face"], ["smoky_makeup", "face"]]|3|
+
+## 입출력 예 설명
+예제 #1
+headgear에 해당하는 의상이 yellow_hat, green_turban이고 eyewear에 해당하는 의상이 blue_sunglasses이므로 아래와 같이 5개의 조합이 가능합니다.
+
+1. yellow_hat
+2. blue_sunglasses
+3. green_turban
+4. yellow_hat + blue_sunglasses
+5. green_turban + blue_sunglasses
+예제 #2
+face에 해당하는 의상이 crow_mask, blue_sunglasses, smoky_makeup이므로 아래와 같이 3개의 조합이 가능합니다.
+
+1. crow_mask
+2. blue_sunglasses
+3. smoky_makeup

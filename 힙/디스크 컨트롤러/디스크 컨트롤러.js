@@ -25,3 +25,5 @@ const solution = (jobs) => {
     }
     return parseInt(answer / jobs.length);
   };
+
+  console.log(solution([[0, 3], [1, 9], [2, 6]]));
